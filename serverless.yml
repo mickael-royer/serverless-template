@@ -1,19 +1,19 @@
-type: retail-app
+type: template-app
 version: 0.0.1
 
 components:
   webFrontend:
     type: static-website
     inputs:
-      name: retail-frontend
+      name: template-frontend
       contentPath: ${self.path}/frontend
       templateValues:
         apiUrl: ${productsApi.url}
       contentIndex: index.html
       contentError: error.html
       hostingRegion: us-east-1
-      hostingDomain: retail-${self.serviceId}.example.com
-      aliasDomain: www.retail-${self.serviceId}.example.com
+      hostingDomain: template-${self.serviceId}.example.com
+      aliasDomain: www.template-${self.serviceId}.example.com
   createProduct:
     type: aws-lambda
     inputs:
