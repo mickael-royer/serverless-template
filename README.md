@@ -1,4 +1,4 @@
-![serverless template application logo](https://)
+![serverless template application logo](https://github.com/mickael-royer/serverless-template/blob/master/img/background.png)
 
 An template application composed of a few serverless components. The application has a frontend that displays a catalog of products. The backend relies on a REST API that in turn fetches data from a DynamoDB table. The application is deployable to AWS.
 
