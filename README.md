@@ -1,8 +1,8 @@
-![serverless template application logo](https://png.pngtree.com/thumb_back/fw800/back_pic/03/83/12/2057c84e41d6b16.jpg)
+![serverless template application logo](https://)
 
 An template application composed of a few serverless components. The application has a frontend that displays a catalog of products. The backend relies on a REST API that in turn fetches data from a DynamoDB table. The application is deployable to AWS.
 
-**[Live Preview Here](http://retail-9mhe8mxcvi.example.com.s3-website-us-east-1.amazonaws.com/index.html)**
+**[Live Preview Here](http://)**
 
 ## Getting Started
 
@@ -16,7 +16,7 @@ An template application composed of a few serverless components. The application
   ```sh
   $ git clone https://github.com/mickael-royer/serverless-template.git
   ```
-
+  
 ## Operations
 
 ### Deploy
@@ -29,32 +29,6 @@ $ components deploy
 On `deploy`, the system executes each child component in parallel based on the dependencies:
 
 ```
-Creating Bucket: 'retail-vwlchq8e57.example.com'
-Creating Bucket: 'www.retail-vwlchq8e57.example.com'
-Creating Role: func-vwlchq8e57-czpijqla-execution-role
-Creating Role: func-vwlchq8e57-llfmq73p-execution-role
-Creating Role: func-vwlchq8e57-8p74j047-execution-role
-Created table: 'products-vwlchq8e57'
-Seeding 3 items into table products-vwlchq8e57.
-Creating Lambda: func-vwlchq8e57-8p74j047
-Creating Lambda: func-vwlchq8e57-llfmq73p
-Creating Lambda: func-vwlchq8e57-czpijqla
-Item inserted to table: 'products-vwlchq8e57'
-...
-Setting policy for bucket: 'retail-vwlchq8e57.example.com'
-Setting website configuration for Bucket: 'retail-vwlchq8e57.example.com'
-Creating Role: api-vwlchq8e57-3q10ks11-iam-role-vwlchq8e57-3q10ks11
-Setting redirection for Bucket: 'www.retail-vwlchq8e57.example.com'
-Set policy and CORS for bucket 'retail-vwlchq8e57.example.com'
-Creating API Gateway: "api-vwlchq8e57-3q10ks11"
-Creating Site: 'retail-frontend'
-Syncing files ...
-REST API resources:
-  POST - https://4ebcwp4pv2.execute-api.us-east-1.amazonaws.com/dev/products
-  GET - https://4ebcwp4pv2.execute-api.us-east-1.amazonaws.com/dev/products/{id}
-  GET - https://4ebcwp4pv2.execute-api.us-east-1.amazonaws.com/dev/catalog/{...categories}
-Static Website resources:
-  http://retail-vwlchq8e57.example.com.s3-website-us-east-1.amazonaws.com
 ```
 
 ### Info
